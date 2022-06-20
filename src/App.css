@@ -1,0 +1,19 @@
+.App {
+  max-width: 500px;
+}
+
+.svg {
+  background-color: #00582B;
+}
+
+button {
+  margin: 2em;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  color: #EEABCE;
+  padding: 10px 20px;
+  background-color: #00582B;
+  display: inline-block;
+  white-space: nowrap;
+}
