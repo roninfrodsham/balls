@@ -36,7 +36,7 @@ function App() {
         <rect x="0" y="249" fill="#09743E" width="500" height="2"/>
         {animate ? Balls() : null }
       </svg>
-      <button onClick={() => setAnimate(!animate)}>Start</button>
+      <button onClick={() => setAnimate(!animate)}>{animate ? "Stop" : "Start"}</button>
     </div>
   )
 }
