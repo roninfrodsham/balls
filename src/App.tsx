@@ -36,7 +36,13 @@ function App() {
         <rect x="0" y="249" fill="#09743E" width="500" height="2"/>
         {animate ? Balls() : null }
       </svg>
-      <button onClick={() => setAnimate(!animate)}>{animate ? "Stop" : "Start"}</button>
+      <motion.button 
+        onClick={() => setAnimate(!animate)}
+        whileHover={{
+          scale: 1.2,
+          textShadow: '0 0 10px #EEABCE',
+        }}
+      >{animate ? "Stop" : "Start"}</motion.button>
     </div>
   )
 }
